@@ -2,10 +2,12 @@
 h1 {
 	color: red;
 	font-size: 25px;
+	text-align: center;
 }
 
 
-p {color: black;
+p {
+	color: black;
 	font-size: 18px;
 	font-family: cursive;
 
@@ -13,7 +15,6 @@ p {color: black;
 .container {
     width: 700px;
     margin: 40px auto;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
 }
 @media (max-width: 500px) {
 	.container {
@@ -25,9 +26,8 @@ p {color: black;
 	padding: 40px;
 	box-shadow: 0px 10px 30px rgba(0,0,0,1);
 	border-radius: 10px;
-	text-align: center;
 	margin: 20px 0px;
-
+}
 
 
 body  {
